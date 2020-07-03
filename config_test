@@ -1,0 +1,31 @@
+###################################
+# Unités : énergie     : cm^-1
+#          masse       : uma
+#          distance    : angstrom
+#          temperature : kelvin
+#          angle       : radians
+###################################
+
+nbMaille = 7 
+a = 5.306 
+T = 20
+dt = 2        # pas d'intégration (fs)
+nstep = 100000
+
+m_gr = 40         # masse d'un atome de gaz rare
+rc = 12           # rayon de cutoff
+epsilon = 87.37   # paramètres de LJ pour les gaz rare
+sigma = 3.345 
+
+h2o_w  =  1.57 # 3.14159265358979 # partie scalaire du quaternion (radian, utiliser précision maximale ?) 
+h2o_vx = 0 # partie vectorielle du quaternion
+h2o_vy = 0
+h2o_vz = 1
+h2o_m_o = 16 
+h2o_m_h1 = 1
+h2o_m_h2 = 1
+h2o_d_oh = 0.9576 # distance O-H
+h2o_a_oh = 1.824  # angle H-O-H
+
+
+
